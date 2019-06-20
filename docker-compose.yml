@@ -1,0 +1,10 @@
+version: '3'
+services:
+  airports:
+    image: "jyotibhanot30/airports-assembly:1.0.1"
+    ports:
+      - "81:8080"
+  countries:
+    image: "jyotibhanot30/countries-assembly:1.0.1"
+    ports:
+      - "82:8080"
